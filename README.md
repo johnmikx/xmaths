@@ -23,7 +23,7 @@ xmaths
 ├── statistics/
 └── README.md
 ```
-## About the Author
+## **About the Author**
 
 🥷 **John Mike Asuncion (Mike)**
 
