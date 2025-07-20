@@ -5,7 +5,7 @@ A *digital lab* for exploring **Further Mathematics** through code, diagrams, an
 
 <img width="100%" src="https://capsule-render.vercel.app/api?type=venom&height=150&color=0:8871e5,100:b678c4&text=xmaths%20:)&stroke=B4CCE7&strokeWidth=2&animation=twinkling"/>
 
-`xmaths` brings together ***advanced mathematical topics with programming*** to create simulations, dynamic diagrams, and intuitive models.
+`xmaths` brings together ***advanced mathematical topics with programming*** to create plots, simulations, diagrams, and models.
 
 ***:)***
 
