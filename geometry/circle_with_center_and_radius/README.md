@@ -15,7 +15,7 @@ $$(x - h)^2 + (y - k)^2 = r^2$$
 This is the desired equation.
 
 ### **Equation of a Circle**
-An equation of the circle with $C(h, k)$ and radius $r$ is
+An equation of the circle with $C(h, k)$ and radius $r$ is:
 
 $$(x - h)^2 + (y - k)^2 = r^2$$
 
