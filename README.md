@@ -26,6 +26,7 @@ xmaths
 ├── linear_algebra/
 │   └── matrix_multiplication_exploration/
 ├── statistics/
+│   └── statistical_treatments_prob_solving/
 └── README.md
 ```
 ## **About the Author**
