@@ -24,6 +24,7 @@ xmaths
 │   ├── distance_triangle_plot/
 │   └── slope_visualization/
 ├── linear_algebra/
+│   └── matrix_multiplication_exploration/
 ├── statistics/
 └── README.md
 ```
