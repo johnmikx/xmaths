@@ -8,7 +8,7 @@ Visualizes **Hasse diagrams** for several finite partially ordered sets (*posets
 
 - Construction and display of binary $(0-1)$ matrices to represent relations between elements.
 
-- conversion of these matrices into directed graphs.
+- Conversion of these matrices into directed graphs.
 
 It offers a hands-on approach to understanding how ordering and connectivity can be represented visually and numerically.
 
