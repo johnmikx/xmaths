@@ -18,6 +18,7 @@ xmaths
 │   ├── calculus_3/
 │   └── differential_equations/
 ├── discrete_mathematics/
+│   └── hasse_diagrams_and_matrices/
 ├── geometry/
 │   ├── circle_with_center_and_radius/
 │   ├── distance_triangle_plot/
