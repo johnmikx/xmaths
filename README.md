@@ -19,6 +19,9 @@ xmaths
 │   └── differential_equations/
 ├── discrete_mathematics/
 ├── geometry/
+│   ├── circle_with_center_and_radius/
+│   ├── distance_triangle_plot/
+│   └── slope_visualization/
 ├── linear_algebra/
 ├── statistics/
 └── README.md
