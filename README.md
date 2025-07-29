@@ -17,16 +17,21 @@ xmaths
 │   ├── calculus_2/
 │   ├── calculus_3/
 │   └── differential_equations/
+│
 ├── discrete_mathematics/
 │   └── hasse_diagrams_and_matrices/
+│
 ├── geometry/
 │   ├── circle_with_center_and_radius/
 │   ├── distance_triangle_plot/
 │   └── slope_visualization/
+│
 ├── linear_algebra/
 │   └── matrix_multiplication_exploration/
+│
 ├── statistics/
 │   └── statistical_treatments_prob_solving/
+│
 └── README.md
 ```
 ## **About the Author**
