@@ -14,6 +14,7 @@ A *digital lab* for exploring **Further Mathematics** through code, diagrams, an
 xmaths
 ├── calculus/
 │   ├── calculus_1/
+│   │   └── symbolic_derivative_calculator/
 │   ├── calculus_2/
 │   ├── calculus_3/
 │   └── differential_equations/
