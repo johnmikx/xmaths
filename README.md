@@ -14,6 +14,7 @@ A *digital lab* for exploring **Further Mathematics** through code, diagrams, an
 xmaths
 ├── calculus/
 │   ├── calculus_1/
+│   │   ├── estimate_youth_population_rate/
 │   │   ├── symbolic_derivative_calculator/
 │   │   └── symbolic_integral_calculator/
 │   │
