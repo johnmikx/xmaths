@@ -15,6 +15,7 @@ xmaths
 ├── calculus/
 │   ├── calculus_1/
 │   │   ├── estimate_youth_population_rate/
+│   │   ├── ftc_visual_exploration/
 │   │   ├── symbolic_derivative_calculator/
 │   │   └── symbolic_integral_calculator/
 │   │
