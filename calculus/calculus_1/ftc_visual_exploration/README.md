@@ -13,15 +13,15 @@ If $f$ is continuous on $[a, b]$, then the function:
 
 $$ F(x) = \int_a^x f(t) \ dt $$
 
-is continuous on $[a, b]$, differentiable on $(a, b)$, and:
+is continuous on $[a, b]$ differentiable on $(a, b)$ and:
 
 $$ F'(x) = f(x) $$
 
 ### **Part 2 (FTC2):**
 
-If $f$ is continuous on $[a, b]$, and $F$ is any antiderivative of $f$, then:
+If $f$ is continuous on $[a, b]$ and $F$ is any antiderivative of $f$ then:
 
-$$ \int_a^b f(x) \, dx = F(b) - F(a) $$
+$$ \int_a^b f(x) \ dx = F(b) - F(a) $$
 
 #### **Key Concepts:**
 - **Continuity** ensures no jumps or holes in the function.
