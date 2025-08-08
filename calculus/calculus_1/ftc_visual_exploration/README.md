@@ -11,7 +11,7 @@ An analytical walkthrough of the **Fundamental Theorem of Calculus (FTC)** using
 ### **Part 1 (FTC1):**
 If $f$ is continuous on $[a, b]$, then the function:
 
-$$ F(x) = \int_a^x f(t) \, dt $$
+$$ F(x) = \int_a^x f(t) \ dt $$
 
 is continuous on $[a, b]$, differentiable on $(a, b)$, and:
 
