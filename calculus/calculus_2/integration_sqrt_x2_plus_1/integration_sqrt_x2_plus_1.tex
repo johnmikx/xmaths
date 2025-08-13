@@ -1,0 +1,48 @@
+\documentclass{article}
+\usepackage{amsmath}
+\usepackage{amssymb}
+
+\begin{document}
+
+\[
+\int \sqrt{x^2+1}\,dx
+\]
+
+\textbf{Substitution ($u=a\tan\theta$ with $a=1,\ u=x$):} \quad $x=\tan\theta,\quad dx=\sec^2\theta\,d\theta,\quad \sqrt{x^2+1}=\sqrt{\tan^2\theta+1}=\sec\theta$.
+
+\[
+\int \sqrt{x^2+1}\,dx = \int \sec\theta \cdot \sec^2\theta\,d\theta = \int \sec^3\theta\,d\theta
+\]
+
+\textbf{Let $I = \int \sec^3\theta\,d\theta$. Integration by parts:} $\displaystyle I = \int \sec\theta \cdot \sec^2\theta\,d\theta$, take $f = \sec\theta,\ g' = \sec^2\theta \Rightarrow f' = \sec\theta\tan\theta,\ g = \tan\theta$.
+
+\[
+I = \sec\theta\tan\theta - \int (\sec\theta\tan\theta)\tan\theta\,d\theta
+\]
+
+\textbf{Identity:} $\tan^2\theta = \sec^2\theta - 1$.
+
+\[
+I = \sec\theta\tan\theta - \int \sec\theta(\sec^2\theta-1)\,d\theta
+= \sec\theta\tan\theta - \int \sec^3\theta\,d\theta + \int \sec\theta\,d\theta
+\]
+
+\[
+2I = \sec\theta\tan\theta + \int \sec\theta\,d\theta
+\]
+
+\textbf{Formula:} $\displaystyle \int \sec\theta\,d\theta = \ln|\sec\theta+\tan\theta| + C$.
+
+\[
+I = \frac{1}{2}\sec\theta\tan\theta + \frac{1}{2}\ln|\sec\theta+\tan\theta| + C
+\]
+
+\textbf{Back-substitution:} $\sec\theta = \sqrt{1+x^2},\ \tan\theta = x$.
+
+\[
+\boxed{
+  \int \sqrt{x^2+1}\,dx = \frac{1}{2}\,x\sqrt{x^2+1} + \frac{1}{2}\,\ln\!\left|x+\sqrt{x^2+1}\right| + C
+}
+\]
+
+\end{document}
