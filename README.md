@@ -37,6 +37,7 @@ xmaths
 ├── statistics/
 │   └── statistical_treatments_prob_solving/
 │
+├── .gitignore
 └── README.md
 ```
 ## **About the Author**
