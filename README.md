@@ -20,7 +20,8 @@ xmaths
 │   │   └── symbolic_integral_calculator/
 │   │
 │   ├── calculus_2/
-│   │   └── integration_sqrt_x2_plus_1/
+│   │   ├── integration_sqrt_x2_plus_1/
+│   │   └── sequence_converge/
 │   │
 │   ├── calculus_3/
 │   └── differential_equations/
