@@ -1,0 +1,52 @@
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+\section*{Formal $Epsilon-N$ Proof}
+\hrule
+\bigskip
+
+\textbf{Prove:} $\displaystyle \lim_{n\to\infty} \frac{2n}{n + 1} = 2$
+
+\bigskip
+
+\textbf{Compute:}
+\begin{align*}
+\left|\frac{2n}{n + 1} - 2\right|
+&= \left|\frac{2n - 2(n + 1)}{n + 1}\right| \\
+&= \left|\frac{2n - 2n - 2}{n + 1}\right| \\
+&= \left|\frac{-2}{n + 1}\right| \\
+&= \frac{2}{n + 1}
+\end{align*}
+
+Given any $\varepsilon > 0$, choose $N$ such that
+\[
+\frac{2}{N + 1} < \varepsilon
+\]
+
+\textbf{Solving for $N$ gives:}
+\[
+N + 1 > \frac{2}{\varepsilon} \implies N > \frac{2}{\varepsilon} - 1
+\]
+
+A convenient choice is:
+\[
+N = \left\lceil \frac{2}{\varepsilon} \right\rceil
+\]
+
+Then for every $n \ge N$, we have
+\[
+|a_n - 2| \le \frac{2}{n + 1} \le \frac{2}{N + 1} \le \varepsilon
+\]
+
+Thus, $a_n \to 2$ as $n \to \infty$.
+
+\bigskip
+
+\[
+\boxed{\textbf{This completes the proof for $a_n = \dfrac{2n}{n+1}$.}}
+\]
+The sequence converges to 2, as required.
+
+\end{document}
