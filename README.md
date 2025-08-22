@@ -24,7 +24,9 @@ xmaths
 │   │   └── sequence_converge/
 │   │
 │   ├── calculus_3/
+│   │
 │   └── differential_equations/
+│       └── pendulum_simulation/
 │
 ├── discrete_mathematics/
 │   └── hasse_diagrams_and_matrices/
